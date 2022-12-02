@@ -13,11 +13,7 @@ st.title('📈 Automated Time Series Forecasting')
 This data app uses Facebook's open-source Prophet library to automatically generate future forecast values from an imported dataset.
 You'll be able to import your data from a CSV file, visualize trends and features, analyze forecast performance, and finally download the created forecast 😵 
 
-**In beta mode**
 
-Created by Zach Renwick: https://twitter.com/zachrenwick
-
-Code available here: https://github.com/zachrenwick/streamlit_forecasting_app
 """
 
 """
@@ -27,7 +23,7 @@ df = st.file_uploader('Import the time series csv file here. Columns must be lab
 
 st.info(
             f"""
-                👆 Upload a .csv file first. Sample to try: [peyton_manning_wiki_ts.csv](https://raw.githubusercontent.com/zachrenwick/streamlit_forecasting_app/master/example_data/example_wp_log_peyton_manning.csv)
+                👆 Upload a .csv file first. Sample to try: [test.csv](https://raw.githubusercontent.com/gaetanbrison/streamlit_prophet/master/example_data/test.csv)
                 """
         )
 
