@@ -82,6 +82,7 @@ if df is not None:
 
 The below link allows you to download the newly created forecast to your computer for further analysis and use.
 """
+st.dataframe(fcst_filtered)
 if df is not None:
     csv_exp = fcst_filtered.to_csv(index=False)
     # When no file name is given, pandas returns the CSV as a string, nice.
