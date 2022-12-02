@@ -7,6 +7,7 @@ from prophet.diagnostics import cross_validation
 from prophet.plot import plot_cross_validation_metric
 import base64
 
+
 st.title('📈 Automated Time Series Forecasting')
 
 """
